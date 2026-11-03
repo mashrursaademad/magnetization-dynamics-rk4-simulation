@@ -1,0 +1,17 @@
+# MATLAB temporary/autosave files
+*.asv
+*.m~
+*.autosave
+
+# MATLAB generated files
+slprj/
+sccprj/
+codegen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
