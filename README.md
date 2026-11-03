@@ -45,23 +45,17 @@ The main objectives of the project are to:
 
 At the nanoscale, the magnetic behavior of a material can be described using its normalized magnetization vector:
 
-$$
-\mathbf{m}=(m_x,m_y,m_z)
-$$
+$$\mathbf{m}=(m_x,m_y,m_z)$$
 
 where \(m_x\), \(m_y\), and \(m_z\) represent the magnetization components along the three spatial axes.
 
 For the pure relaxation case considered in this project, the nanomagnet has an anisotropy field along the \(z\)-axis. Therefore, the stable equilibrium positions are:
 
-$$
-\mathbf{m}=(0,0,+1)
-$$
+$$\mathbf{m}=(0,0,+1)$$
 
 or
 
-$$
-\mathbf{m}=(0,0,-1)
-$$
+$$\mathbf{m}=(0,0,-1)$$
 
 Depending on the initial magnetization position, the magnetization evolves toward one of these stable states.
 
@@ -132,13 +126,7 @@ $$
 
 The next solution point is then calculated using:
 
-$$
-y_{n+1}
-=
-y_n+
-\frac{1}{6}
-(k_1+2k_2+2k_3+k_4)
-$$
+$$y_{n+1} = y_n + \frac{1}{6}(k_1+2k_2+2k_3+k_4)$$
 
 The same RK4 procedure is applied to the magnetization vector during each numerical integration step.
 
