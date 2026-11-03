@@ -329,6 +329,14 @@ and records the corresponding relaxation time.
 
 ![Damping Responses 3](results/task3/damping_response_6.png)
 
+![Damping Responses 3](results/task3/damping_response_7.png)
+
+![Damping Responses 1](results/task3/damping_response_8.png)
+
+![Damping Responses 2](results/task3/damping_response_9.png)
+
+![Damping Responses 3](results/task3/damping_response_10.png)
+
 Additional damping-response figures are available in the [`results/task3`](results/task3/) directory.
 
 ### Relaxation-Time Results
@@ -435,6 +443,9 @@ The original MATLAB Live Script associated with the project is available in:
 
 ```text
 live-script/
+├── task1_pure_relaxation.mlx
+├── task2_initial_magnetization.mlx
+└── task3_damping_analysis.mlx
 ```
 
 ---
@@ -452,7 +463,9 @@ magnetization-dynamics-rk4-simulation/
 │   └── task3_damping_analysis.m
 │
 ├── live-script/
-│   └── magnetization_dynamics.mlx
+│   ├── task1_pure_relaxation.mlx
+│   ├── task2_initial_magnetization.mlx
+│   └── task3_damping_analysis.mlx
 │
 ├── results/
 │   ├── task1/
@@ -474,7 +487,12 @@ magnetization-dynamics-rk4-simulation/
 │       ├── damping_response_4.png
 │       ├── damping_response_5.png
 │       ├── damping_response_6.png
+│       ├── damping_response_7.png
+│       ├── damping_response_8.png
+│       ├── damping_response_9.png
+│       ├── damping_response_10.png
 │       └── damping_relaxation_table.png
+│       └── relaxation_time_vs_damping.png
 │
 ├── documentation/
 │   ├── Assignment_Statement.pdf
