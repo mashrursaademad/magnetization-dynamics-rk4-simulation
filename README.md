@@ -154,26 +154,18 @@ The baseline simulation uses the following parameters:
 
 | Parameter | Symbol | Value |
 |---|---|---:|
-| Gilbert damping factor | \(\alpha\) | 0.01 |
-| Gyromagnetic ratio | \(\gamma\) | \(2.21276\times10^5\) m/(A·s) |
-| Anisotropy field | \(H_k\) | \(3.1951\times10^5\) A/m |
-| Initial normalized simulation time | \(\tau_1\) | 0 |
-| Final normalized simulation time | \(\tau_2\) | 2000 |
-| Number of integration intervals | \(N\) | 1000 |
+| Gilbert damping factor | $\alpha$ | 0.01 |
+| Gyromagnetic ratio | $\gamma$ | $2.21276 \times 10^5$ m/(A·s) |
+| Anisotropy field | $H_k$ | $3.1951 \times 10^5$ A/m |
+| Initial normalized simulation time | $\tau_1$ | 0 |
+| Final normalized simulation time | $\tau_2$ | 2000 |
+| Number of integration intervals | $N$ | 1000 |
 
 The physical time is calculated from the normalized simulation time according to the normalization used in the model.
 
-For Task 3, the Gilbert damping factor is varied from:
+For Task 3, the Gilbert damping factor is varied within the range:
 
-$$
-\alpha=0.001
-$$
-
-to
-
-$$
-\alpha=0.5
-$$
+$$0.001 \leq \alpha \leq 0.5$$
 
 to investigate its influence on magnetization relaxation.
 
@@ -236,17 +228,17 @@ and the corresponding time is recorded as the relaxation time.
 
 ### Simulation Responses
 
-![Initial Condition Responses 1](results/task2/initial_condition_response_1.png)
+![Initial Condition Responses 1](results/task2/initial_condition_responses_1.png)
 
-![Initial Condition Responses 2](results/task2/initial_condition_response_2.png)
+![Initial Condition Responses 2](results/task2/initial_condition_responses_2.png)
 
-![Initial Condition Responses 1](results/task2/initial_condition_response_3.png)
+![Initial Condition Responses 3](results/task2/initial_condition_responses_3.png)
 
-![Initial Condition Responses 2](results/task2/initial_condition_response_4.png)
+![Initial Condition Responses 4](results/task2/initial_condition_responses_4.png)
 
-![Initial Condition Responses 1](results/task2/initial_condition_response_5.png)
+![Initial Condition Responses 5](results/task2/initial_condition_responses_5.png)
 
-![Initial Condition Responses 2](results/task2/initial_condition_response_6.png)
+![Initial Condition Responses 6](results/task2/initial_condition_responses_6.png)
 
 Additional initial-condition responses are available in the [`results/task2`](results/task2/) directory.
 
